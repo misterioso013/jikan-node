@@ -2,10 +2,7 @@
   "name": "jikan-node",
   "version": "1.2.1",
   "description": "Wrapper for the unofficial MAL api, Jikan",
-  "main": "jikan-node.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "dist/jikan-node.js",
   "dependencies": {
     "cross-fetch": "^3.0.2"
   },
