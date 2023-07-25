@@ -166,7 +166,8 @@ export default class JikanNode implements iJikanNode {
      * @param {Object} param page sort search
      */
     async findUser(username: string, request: string, data: string, param: object) {
-        return await this.request.send(['user', username, request, data], param)
+        const params = { ...param }
+        return await this.request.send(['user', username, request, data], params)
     }
 
     /**

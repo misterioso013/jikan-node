@@ -20,7 +20,9 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsup src/",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
