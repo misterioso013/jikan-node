@@ -1,5 +1,5 @@
-import JikanNode from './src/jikan-node';
-import Request from './src/lib/Request';
+import JikanNode from '../src/jikan-node';
+import Request from '../src/lib/Request';
 
 jest.mock('./lib/Request');
 

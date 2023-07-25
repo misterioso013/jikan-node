@@ -1,4 +1,4 @@
-import Request from './Request';
+import Request from '../src/lib/Request';
 
 describe('Request', () => {
     let request: Request;
